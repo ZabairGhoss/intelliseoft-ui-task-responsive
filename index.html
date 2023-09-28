@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Intellisoft UI Task</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="">
+      <!-- Navbar Section Start -->
+      <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-bg-custom">
+          <div class="container-fluid custom-content-container">
+            <div class="logo-img-container">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="assets/realestate-logo.png"
+                  alt="real estate"
+                  class="logo-img"
+                />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle active text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Home
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Listing
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Property
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Agencies
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Agents
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div>
+                <img src="assets/user-avatar.png" alt="user avatar" />
+                <span class="ms-2 text-white">Login</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- Navbar Section End -->
+
+      <!-- Hero Section Start -->
+      <section id="hero" class="hero-section">
+        <div
+          class="custom-content-container d-flex flex-column align-content-center gap-5 mt-5"
+        >
+          <p class="hero-sec-tagline">
+            propery for the sale & for the rent around the world
+          </p>
+          <p class="hero-sec-tagline-2">
+            Search and Find Your
+            <span class="hero-sec-tagline-2-sub-text">Family House </span>
+          </p>
+
+          <div>
+            <nav class="navbar bg-body-tertiary d-flex flex-row p-0">
+              <div class="advanced-search-bar-status-btn">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle active text-white"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Status
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <form class="advanced-search-bar-form">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Title, Keyword, address, zip or property id ..."
+                    aria-label="Search-bar"
+                    aria-describedby="basic-addon1"
+                    class="advanced-search-bar"
+                  />
+                  <button
+                    type="button"
+                    class="btn advanced-search-bar-advance-btn"
+                  >
+                    <span
+                      ><img
+                        src="assets/icons/sm-setting-icon.png"
+                        alt="advance search"
+                        class="w-25"
+                    /></span>
+                    Advance
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-success text-uppercase ms-5"
+                  >
+                    <span
+                      ><img src="assets/icons/search-icon.png" alt="search"
+                    /></span>
+                    Search properties
+                  </button>
+                </div>
+              </form>
+            </nav>
+          </div>
+          <p class="text-white text-center">browse more property types</p>
+          <div
+            class="d-flex align-content-around w-50 mx-auto property-types-container"
+          >
+            <div class="property-type">
+              <img
+                src="/assets/icons/modern-villa-icon.png"
+                alt="modern villa"
+                class=""
+              />
+              <p>Modern Villa</p>
+            </div>
+            <div class="property-type">
+              <img
+                src="/assets/icons/modern-villa-icon.png"
+                alt="modern villa"
+                class=""
+              />
+              <p>Family House</p>
+            </div>
+            <div class="property-type">
+              <img
+                src="/assets/icons/country-house-icon.png"
+                alt="modern villa"
+                class=""
+              />
+              <p>Town House</p>
+            </div>
+            <div class="property-type">
+              <img
+                src="/assets/icons/condo-icon1.png"
+                alt="modern villa"
+                class=""
+              />
+              <p>Condo</p>
+            </div>
+            <div class="property-type">
+              <img
+                src="/assets/icons/appartments-icon.png"
+                alt="modern villa"
+                class=""
+              />
+              <p>Apartment</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- Grid Slider Section Start -->
+      <section id="slider" class="property-grid-slider">
+        <div class="custom-content-container">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="carousel-section-tagline mb-0">
+                <span class="hero-sec-tagline-2-sub-text">latest</span>
+                properties
+              </p>
+              <p>Listing properties by location or properties near you</p>
+            </div>
+            <ul
+              class="nav nav-underline pt-4 text-uppercase slider-section-navbar"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">all</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">apartment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">condo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">family house</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">modern vila</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">town house</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Slider Start -->
+          <div class="row custom-slider">
+
+            <!-- This will be considered one slide -->
+            <div class="col-lg-12">    
+                <div class="grandchild">
+                    <img src="assets/properties/properties-1.png" width="400px" height="auto" />
+                </div>
+                <div class="grandchild">
+                    <img src="assets/properties/properties-2.png" width="400px" height="auto" />
+                </div>
+        
+                <div class="grandchild">
+                    <img src="assets/properties/properties-3.jpg" width="400px" height="auto" />
+                </div>
+                <div class="grandchild">
+                    <img src="assets/properties/properties-4.jpg" width="400px" height="auto" />
+                </div>
+                <!-- <div class="grandchild">
+                  <img src="assets/properties/properties-5.jpg" width="400px" height="auto" />
+              </div> -->
+            </div>
+
+           
+  </div>
+        
+            <!-- The second slide -->
+            <!-- <div class="col-lg-12">
+              <div class="grandchild col-lg-3">
+                <img src="assets/properties/properties-5.jpg" />
+                1
+            </div>
+            <div class="grandchild col-lg-3">
+                <img src="assets/properties/properties-6.jpg" />
+                2
+            </div>
+    
+            <br class="clearboth">
+    
+            <div class="grandchild col-lg-3">
+                <img src="assets/properties/properties-7.jpg" />
+                3
+            </div>
+            <div class="grandchild col-lg-3">
+                <img src="assets/properties/properties-8.jpg" />
+                4
+            </div>
+            </div> -->
+        </div>
+          <!-- Slider End -->
+
+          <div class="d-flex flex-wrap gap-5 ">
+            <div class="card" style="width: 25rem;">
+              <img src="assets/properties/properties-1.png" class="card-img-top" alt="property 1">
+              <div class="card-body">
+                <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
+                <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
+              </div>
+              <div class="card-footer p-0">
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+              <img src="assets/properties/properties-1.png" class="card-img-top" alt="property 1">
+              <div class="card-body">
+                <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
+                <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
+              </div>
+              <div class="card-footer p-0">
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+              <img src="assets/properties/properties-1.png" class="card-img-top" alt="property 1">
+              <div class="card-body">
+                <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
+                <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
+              </div>
+              <div class="card-footer p-0">
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+              <img src="assets/properties/properties-1.png" class="card-img-top" alt="property 1">
+              <div class="card-body">
+                <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
+                <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
+              </div>
+              <div class="card-footer p-0">
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                  </li>
+                  <li class="list-group-item custom-li-style">
+                    <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- Grid Slider Section End -->
+
+
+      <!-- Footer Section Navbar Start -->
+      <div class="navbar-bg-custom">
+      <nav class="navbar navbar-expand-lg custom-content-container px-5">
+        <div class="container-fluid">
+          <div class="logo-img-container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="assets/realestate-logo.png"
+                alt="real estate"
+                class="logo-img"
+              />
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav pt-4 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link middle-navbar-items" aria-current="page" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link middle-navbar-items" href="#">contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link middle-navbar-items" href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link middle-navbar-items" href="#">support us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <!-- Footer Section Navbar End -->
+
+      <!-- Footer Section Start-->
+        <section id="footer" class="footer-section">
+          <div class="custom-content-container p-5">
+          <div class="row">
+            <div class="col-lg-3 text-white">
+              <p class="footer-grid-tagline">about us</p>
+              <hr />
+
+              <p class="footer-grid-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+              <p class="footer-grid-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            </div>
+
+            <div class="col-lg-3 text-white">
+              <p class="footer-grid-tagline">newsleter subscribe</p>
+              <hr />
+              <p class="footer-grid-description m-0">Email Address:</p>
+              <div>
+                <nav class="navbar">
+                  <div class="container-fluid p-0">
+                    <form class="d-flex footer-search-bar" role="search">
+                      <input class="form-control bg-transparent border-0 ps-2 text-white" type="search" placeholder="Your email address" aria-label="Search">
+                      <button class="btn btn-danger signup-btn" type="submit">Sign up</button>
+                    </form>
+                  </div>
+                </nav>
+              </div>
+              <div>
+                <p>Connect with us</p>
+                <div class="d-flex flex-row gap-3">
+                  <div><img src="assets/icons/SocialMedia/facebook-16.png" alt="facebook" /></div>
+                  
+                  <div><img src="assets/icons/SocialMedia/twitter-16.png" alt="twitter" /></div>
+                  
+                  <div><img src="assets/icons/SocialMedia/google-16.png" alt="google" /></div>
+                  
+                  <div><img src="assets/icons/SocialMedia/vite-16.png" alt="vite" /></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 text-white">
+              <p class="footer-grid-tagline">contact us</p>
+              <hr />
+              <p class="hero-sec-tagline-2-sub-text text-uppercase fw-bolder">Nouman property</p>
+              <p class="footer-grid-description">142 West newton, NY 19088 United States</p>
+              <p>+100 (234) 222 333</p>
+              <p>info@realitywp.com</p>
+            </div>
+
+            <div class="col-lg-3 text-white">
+              <p class="footer-grid-tagline">useful links</p>
+              <hr />
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link text-white">Departments</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Home in Boston</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Inspiring Design</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Real Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Uncategorized</a></li>
+              </ul>
+              </div>
+          </div>
+          </div>
+        </section>
+      <!-- Footer Section End -->
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

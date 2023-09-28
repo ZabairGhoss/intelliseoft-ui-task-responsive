@@ -1,0 +1,201 @@
+
+/* custom content container */
+.custom-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.navbar-bg-custom {
+  background-color: #455765;
+}
+
+.custom-content-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo-img-container {
+  width: 170px;
+  height: 60px;
+}
+
+.logo-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+                                                                                                    /* hero section */
+.hero-section {
+  background-image: url("/assets/hero-banner-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  margin: 0;
+  padding: 50px 10px;
+}
+
+.hero-sec-tagline {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-sec-tagline-2 {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero-sec-tagline-2-sub-text {
+  color: #f26c61;
+}
+
+.advanced-search-bar-status-btn {
+  width: 10%;
+  background-color: #f26c61;
+  text-align: center;
+}
+
+.advanced-search-bar-form {
+  width: 80%;
+  margin-right: auto;
+}
+
+.advanced-search-bar-form .form-control {
+  border: none;
+  border-right: 1px solid #d3d3d3;
+  border-radius: 0;
+}
+
+.advanced-search-bar {
+}
+.property-types-container {
+  color: #fff;
+}
+
+.advanced-search-bar-advance-btn{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.property-type {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px dotted #fff;
+  border-radius: 5px;
+}
+
+
+                                                                                            /* Slider / Carousel Section */
+.property-grid-slider{
+  padding: 100px 10px;
+}
+.carousel-section-tagline{
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.slider-section-navbar a{
+    color: #000;
+    font-weight: 500;
+}
+
+.slider-section-navbar .nav-item a{
+  color: #000;
+}
+
+.slider-section-navbar .nav-link.active{
+  border-bottom-color: #f26c61;
+}
+
+.slider-section-navbar .nav-item .nav-link:hover{
+  border-bottom-color: #f26c61;
+}
+
+.custom-slider{
+  background-color: red;
+  width: 100%;
+}
+
+/* Slider Code Styles */
+.grandchild {
+  float: left;
+}
+.clearboth {
+  clear: both;
+}
+
+
+                                                                                  /* Bootstrap Card */
+ .card-icons-background{
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 2px;
+ }
+
+ .custom-li-style{
+  width: 33%;
+  font-weight: 500;
+ }
+
+
+
+                                                                                  /* Footer Section Navbar */
+.middle-navbar-items{
+  color: #fff;
+  text-transform: capitalize;
+}
+
+
+
+.middle-navbar-items:hover{
+  color: #fff;
+}
+
+
+.footer-section{
+  background-image: url('/assets/footer-bg-img.jpg');
+  background-repeat: no-repeat;
+  
+}
+
+.footer-grid-tagline{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-grid-description{
+  color: #fff;
+}
+
+.footer-search-bar{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 2px;
+  width: 100%;
+}
+
+.footer-search-bar .form-control{
+  width: 75%;
+}
+
+.signup-btn{
+  font-size: 14px;
+  padding:0 10px;
+}
+
