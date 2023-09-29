@@ -175,6 +175,7 @@
           </p>
 
           <div>
+            <div class="advanced-search-bar-container">
             <nav class="navbar bg-body-tertiary p-0">
               <div class="advanced-search-bar-status-btn">
                 <ul class="navbar-nav">
@@ -212,33 +213,30 @@
                     type="button"
                     class="btn advanced-search-bar-advance-btn"
                   >
-                    <span>
                       <img
                         src="assets/icons/sm-setting-icon.png"
                         alt="advance search"
                         class="w-25"
                     />
-                  
-                  </span>
                     Advance
                   </button>
 
                   <button
                     type="button"
-                    class="btn btn-success text-uppercase ms-auto float-end"
+                    class="btn btn-success advanced-search-bar-search-btn"
                   >
-                    <span
-                      ><img src="assets/icons/search-icon.png" alt="search"
-                    /></span>
+                    <img src="assets/icons/search-icon.png" alt="search"
+                    />
                     Search properties
                   </button>
                 </div>
               </form>
             </nav>
           </div>
+          </div>
           <p class="text-white text-center">browse more property types</p>
           <div
-            class="d-flex align-content-around w-50 mx-auto property-types-container"
+            class="d-flex flex-row flex-sm-column flex-md-row flex-lg-row align-content-around property-types-container"
           >
             <div class="property-type">
               <img
@@ -938,7 +936,7 @@
 		                800: {
 			          grid: {
 				          rows: 2,
-				          cols: 2,
+				          cols: 1,
 			            },
 		              },
 		          600: {

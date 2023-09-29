@@ -31,7 +31,7 @@
   background-image: url("/assets/hero-banner-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
+  /* height: 700px; */
   margin: 0;
   padding: 50px 10px;
 }
@@ -52,6 +52,11 @@
 
 .hero-sec-tagline-2-sub-text {
   color: #f26c61;
+}
+
+.advanced-search-bar-container{
+  width: 100%;
+  background-color: red;
 }
 
 .advanced-search-bar-status-btn {
@@ -78,8 +83,20 @@
 }
 
 .advanced-search-bar-advance-btn{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
+}
+
+.advanced-search-bar-search-btn{
+  text-transform: uppercase;
+  margin-left: auto;
+  float: right;
+}
+
+.property-types-container{
+  /* d-flex align-content-around w-50 mx-auto property-types-container */
+    width: 70%;
+    margin: 0 auto;
 }
 
 .property-type {
@@ -159,8 +176,6 @@
   text-transform: capitalize;
 }
 
-
-
 .middle-navbar-items:hover{
   color: #fff;
 }
@@ -199,3 +214,42 @@
   padding:0 10px;
 }
 
+
+
+ /* Extra small devices (phones) */
+ @media (max-width: 576px) { 
+    .hero-sec-tagline-2{
+      font-size: 2.3rem;
+    }
+    .advanced-search-bar-status-btn > a{
+      font-size: 1rem;
+    }
+    .advanced-search-bar-advance-btn{
+      font-size: 0.8rem;
+      padding: 6px 4px;
+    }
+    .advanced-search-bar-search-btn{
+      font-size: 0.8rem;
+      padding: 6px 2px; 
+    }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Custom styles for SM screens */
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Custom styles for MD screens */
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Custom styles for LG screens */
+}
+
+/* Extra large devices (extra large desktops) */
+@media (min-width: 1201px) {
+  /* Custom styles for XL screens */
+}
