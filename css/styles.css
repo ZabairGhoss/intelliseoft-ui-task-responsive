@@ -156,24 +156,71 @@
 
 .property-display-row-container{
   justify-content: space-around;
-  padding: 5px 0;
+  padding: 10px 0;
   gap: 5px;
 }
 
                                                                                   /* Bootstrap Card */
- .card-icons-background{
+ .custom-card{
+    margin: 0 auto;
+ }
+
+ .card-text{
+    display: flex;
+ }
+ .card-location-icon{
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+ }
+
+ .card-text > p{
+    padding-left: 0.315rem;
+ }
+
+.card-icons-background{
     width: 30px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.2);
     margin-right: 5px;
     border-radius: 2px;
     display: inline-block;
     text-align: center;
-    padding: 4px 2px;
+    padding: 2px 2px;
  }
 
+ .card-action-buttons{
+    display: flex;
+    flex-direction: row;
+ }
  .custom-li-style{
   width: 33%;
   font-weight: 500;
+  padding: 5px 16px;
+  border-radius: 5px;
+ }
+ .card-action-button-container{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .card-action-btn-bed-icon{
+    width: 20px;
+    height: 20px;
+ }
+ .card-action-btn-bathtub-icon{
+    width: 25px;
+    height: 25px;
+ }
+
+ .home-area-text{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 3px;
+ }
+ .custom-li-style p{
+    padding-left: 0.315rem;
+    margin-bottom: 0;
  }
 
 

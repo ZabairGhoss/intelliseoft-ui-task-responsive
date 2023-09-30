@@ -326,23 +326,24 @@
                         <!-- Content for Card 1   row-gap-5 column-gap-5 --> 
                         <div class="row property-display-row-container">
                         <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                          <div class="card" style="margin: 0 auto;">
+                          <div class="card" class="custom-card">
                             <img src="assets/properties/properties-1.png" class="card-img-top" alt="property 1">
                             <div class="card-body">
                               <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
-                              <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                              <div class="card-text ">
+                                  <img src="assets/icons/location-icon-15.png" alt="location" class="card-location-icon" /> <p> Dr. Elbert K. St Claire III, East 65th Street, New York</p></div>
                               <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
                             </div>
                             <div class="card-footer p-0">
-                              <ul class="list-group list-group-flush d-flex flex-row">
+                              <ul class="list-group list-group-flush card-action-buttons">
                                 <li class="list-group-item custom-li-style">
-                                  <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                                  <div class="card-action-button-container"><img src="assets/icons/bed-icon-20.png" alt="bed" class="card-action-btn-bed-icon" /><p> 4 Beds</p><div>
                                 </li>
                                 <li class="list-group-item custom-li-style">
-                                  <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                                  <div class="card-action-button-container"><img src="assets/icons/bath-tub-icon-25.png" alt="bath tub" class="card-action-btn-bathtub-icon" /><p> 5 Baths</p><div>
                                 </li>
                                 <li class="list-group-item custom-li-style">
-                                  <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                                  <div class="card-action-button-container"><img src="assets/icons/window-icon-25.png" alt="area" class="card-action-btn-bathtub-icon" /><p class="home-area-text"> 1200 Sqft</p><div>
                                 </li>
                               </ul>
                             </div>
@@ -350,23 +351,24 @@
                           </div>
                         
                           <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card" style="margin: 0 auto;">
-                              <img src="assets/properties/properties-2.png" class="card-img-top" alt="property 1">
+                            <div class="card" class="custom-card">
+                              <img src="assets/properties/properties-2.png" class="card-img-top" alt="property 2">
                               <div class="card-body">
                                 <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
-                                <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                                <div class="card-text ">
+                                    <img src="assets/icons/location-icon-15.png" alt="location" class="card-location-icon" /> <p> Dr. Elbert K. St Claire III, East 65th Street, New York</p></div>
                                 <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
                               </div>
                               <div class="card-footer p-0">
-                                <ul class="list-group list-group-flush d-flex flex-row">
+                                <ul class="list-group list-group-flush card-action-buttons">
                                   <li class="list-group-item custom-li-style">
-                                    <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                                    <div class="card-action-button-container"><img src="assets/icons/bed-icon-20.png" alt="bed" class="card-action-btn-bed-icon" /><p> 4 Beds</p><div>
                                   </li>
                                   <li class="list-group-item custom-li-style">
-                                    <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                                    <div class="card-action-button-container"><img src="assets/icons/bath-tub-icon-25.png" alt="bath tub" class="card-action-btn-bathtub-icon" /><p> 5 Baths</p><div>
                                   </li>
                                   <li class="list-group-item custom-li-style">
-                                    <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                                    <div class="card-action-button-container"><img src="assets/icons/window-icon-25.png" alt="area" class="card-action-btn-bathtub-icon" /><p class="home-area-text"> 1200 Sqft</p><div>
                                   </li>
                                 </ul>
                               </div>
@@ -374,35 +376,62 @@
                             </div>
 
                             <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                              <div class="card" style=" margin: 0 auto;">
-                                <img src="assets/properties/properties-3.jpg" class="card-img-top" alt="property 1">
+                              <div class="card" class="custom-card">
+                                <img src="assets/properties/properties-3.jpg" class="card-img-top" alt="property 3">
                                 <div class="card-body">
                                   <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
-                                  <p class="card-text "><span><img src="assets/icons/location-icon-15.png" alt="location" /></span> Dr. Elbert K. St Claire III, East 65th Street, New York</p>
+                                  <div class="card-text ">
+                                      <img src="assets/icons/location-icon-15.png" alt="location" class="card-location-icon" /> <p> Dr. Elbert K. St Claire III, East 65th Street, New York</p></div>
                                   <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
                                 </div>
                                 <div class="card-footer p-0">
-                                  <ul class="list-group list-group-flush d-flex flex-row">
+                                  <ul class="list-group list-group-flush card-action-buttons">
                                     <li class="list-group-item custom-li-style">
-                                      <span><img src="assets/icons/bed-icon-20.png" alt="bed" /></span> 4 Beds
+                                      <div class="card-action-button-container"><img src="assets/icons/bed-icon-20.png" alt="bed" class="card-action-btn-bed-icon" /><p> 4 Beds</p><div>
                                     </li>
                                     <li class="list-group-item custom-li-style">
-                                      <span><img src="assets/icons/bath-tub-icon-25.png" alt="bath" /></span> 5 Baths
+                                      <div class="card-action-button-container"><img src="assets/icons/bath-tub-icon-25.png" alt="bath tub" class="card-action-btn-bathtub-icon" /><p> 5 Baths</p><div>
                                     </li>
                                     <li class="list-group-item custom-li-style">
-                                      <span><img src="assets/icons/window-icon-25.png" alt="area" /></span> 1200 Sqft
+                                      <div class="card-action-button-container"><img src="assets/icons/window-icon-25.png" alt="area" class="card-action-btn-bathtub-icon" /><p class="home-area-text"> 1200 Sqft</p><div>
                                     </li>
                                   </ul>
                                 </div>
                               </div>
+                              </div>
+
+                              <!-- New Card 1 -->
+                              <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
+                                <div class="card" class="custom-card">
+                                  <img src="assets/properties/properties-13.png" class="card-img-top" alt="property 3">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
+                                    <div class="card-text ">
+                                        <img src="assets/icons/location-icon-15.png" alt="location" class="card-location-icon" /> <p> Dr. Elbert K. St Claire III, East 65th Street, New York</p></div>
+                                    <p><div class="card-icons-background"><img src="assets/icons/heart-icon.png" alt="heart" /></div><div class="card-icons-background"><img src="assets/icons/data-transfer-icon.png" alt="data transfer" /></div> <span class="hero-sec-tagline-2-sub-text fw-bold">$7,500</span> / mo</p>
+                                  </div>
+                                  <div class="card-footer p-0">
+                                    <ul class="list-group list-group-flush card-action-buttons">
+                                      <li class="list-group-item custom-li-style">
+                                        <div class="card-action-button-container"><img src="assets/icons/bed-icon-20.png" alt="bed" class="card-action-btn-bed-icon" /><p> 4 Beds</p><div>
+                                      </li>
+                                      <li class="list-group-item custom-li-style">
+                                        <div class="card-action-button-container"><img src="assets/icons/bath-tub-icon-25.png" alt="bath tub" class="card-action-btn-bathtub-icon" /><p> 5 Baths</p><div>
+                                      </li>
+                                      <li class="list-group-item custom-li-style">
+                                        <div class="card-action-button-container"><img src="assets/icons/window-icon-25.png" alt="area" class="card-action-btn-bathtub-icon" /><p class="home-area-text"> 1200 Sqft</p><div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                </div>
+
                         </div>
-                        </div>
-  
 
                         <div class="row property-display-row-container">
 
                             <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                              <div class="card" style="margin: 0 auto;">
+                              <div class="card" class="custom-card">
                                 <img src="assets/properties/properties-4.jpg" class="card-img-top" alt="property 1">
                                 <div class="card-body">
                                   <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -426,7 +455,7 @@
                               </div>
                             
                               <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                                <div class="card" style="margin: 0 auto;">
+                                <div class="card" class="custom-card">
                                   <img src="assets/properties/properties-5.jpg" class="card-img-top" alt="property 1">
                                   <div class="card-body">
                                     <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -450,7 +479,7 @@
                                 </div>
 
                                 <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                                  <div class="card" style="margin: 0 auto;">
+                                  <div class="card" class="custom-card">
                                     <img src="assets/properties/properties-6.jpg" class="card-img-top" alt="property 1">
                                     <div class="card-body">
                                       <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -479,7 +508,7 @@
                         <!-- Content for Card 1 -->
                         <div class="row property-display-row-container">
                         <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                          <div class="card" style="margin: 0 auto;">
+                          <div class="card" class="custom-card">
                             <img src="assets/properties/properties-7.jpg" class="card-img-top" alt="property 1">
                             <div class="card-body">
                               <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -503,7 +532,7 @@
                           </div>
                         
                           <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card" style="margin: 0 auto;">
+                            <div class="card" class="custom-card">
                               <img src="assets/properties/properties-8.jpg" class="card-img-top" alt="property 1">
                               <div class="card-body">
                                 <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -527,7 +556,7 @@
                             </div>
 
                             <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                              <div class="card" style="margin: 0 auto;">
+                              <div class="card" class="custom-card">
                                 <img src="assets/properties/properties-10.jpg" class="card-img-top" alt="property 1">
                                 <div class="card-body">
                                   <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -555,7 +584,7 @@
                         <div class="row property-display-row-container">
 
                             <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                              <div class="card" style="margin: 0 auto;">
+                              <div class="card" class="custom-card">
                                 <img src="assets/properties/properties-11.jpg" class="card-img-top" alt="property 1">
                                 <div class="card-body">
                                   <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -579,7 +608,7 @@
                               </div>
                             
                               <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                                <div class="card" style="margin: 0 auto;">
+                                <div class="card" class="custom-card">
                                   <img src="assets/properties/properties-12.jpg" class="card-img-top" alt="property 1">
                                   <div class="card-body">
                                     <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -603,7 +632,7 @@
                                 </div>
 
                                 <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                                  <div class="card" style="margin: 0 auto;">
+                                  <div class="card" class="custom-card">
                                     <img src="assets/properties/properties-13.png" class="card-img-top" alt="property 1">
                                     <div class="card-body">
                                       <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -632,7 +661,7 @@
                       <!-- Content for Card 1 -->
                       <div class="row property-display-row-container">
                       <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card" style="margin: 0 auto;">
+                        <div class="card" class="custom-card">
                           <img src="assets/properties/properties-7.jpg" class="card-img-top" alt="property 1">
                           <div class="card-body">
                             <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -656,7 +685,7 @@
                         </div>
                       
                         <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                          <div class="card" style="margin: 0 auto;">
+                          <div class="card" class="custom-card">
                             <img src="assets/properties/properties-8.jpg" class="card-img-top" alt="property 1">
                             <div class="card-body">
                               <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -680,7 +709,7 @@
                           </div>
 
                           <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card" style="margin: 0 auto;">
+                            <div class="card" class="custom-card">
                               <img src="assets/properties/properties-10.jpg" class="card-img-top" alt="property 1">
                               <div class="card-body">
                                 <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -706,9 +735,8 @@
 
 
                       <div class="row property-display-row-container">
-
                           <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card" style="margin: 0 auto;">
+                            <div class="card" class="custom-card">
                               <img src="assets/properties/properties-6.jpg" class="card-img-top" alt="property 1">
                               <div class="card-body">
                                 <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -732,7 +760,7 @@
                             </div>
                           
                             <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                              <div class="card" style="margin: 0 auto;">
+                              <div class="card" class="custom-card">
                                 <img src="assets/properties/properties-12.jpg" class="card-img-top" alt="property 1">
                                 <div class="card-body">
                                   <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -756,7 +784,7 @@
                               </div>
 
                               <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
-                                <div class="card" style="margin: 0 auto;">
+                                <div class="card" class="custom-card">
                                   <img src="assets/properties/properties-14.png" class="card-img-top" alt="property 1">
                                   <div class="card-body">
                                     <h5 class="card-title text-capitalize">Villa with pool for rent</h5>
@@ -777,7 +805,7 @@
                                     </ul>
                                   </div>
                                 </div>
-                                  </div>
+                              </div>
                       </div>
                   </li>
                 </ul>
