@@ -328,7 +328,62 @@
 
 /* Small devices (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {
-  /* Custom styles for SM screens */
+  /* Custom styles for SM screens 672*/
+  .hero-sec-tagline-2{
+    font-size: 2.3rem;
+  }
+  .advanced-search-bar-status-btn > a{
+    font-size: 1rem;
+  }
+  .advanced-search-bar-advance-btn{
+    font-size: 0.8rem;
+    padding: 6px 4px;
+  }
+  .advanced-search-bar-search-btn{
+    font-size: 0.8rem;
+    padding: 6px 2px; 
+  }
+
+  .property-types-container{
+    /* d-flex flex-column row-gap-sm-2 column-gap-sm-5 flex-sm-column flex-md-row flex-lg-row align-content-around  */
+      width: 100%;
+      gap: 10px;
+  }
+  .property-type{
+    width: 50%;
+  }
+
+  .property-grid-slider{
+    padding: 100px 10px;
+  }
+
+  .property-display-sec{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .carousel-section-tagline{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .carousel-section-tagline-desciption{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .slider-section-navbar{
+    margin: 0 auto;
+  }
+
+  .slider-section-navbar a{
+    padding-top: 0.25rem;
+    font-size: 0.75rem;
+  }
+
+  .property-display-row-container{
+    padding: 10px 0;
+    gap: 15px;
+  }
+
 }
 
 /* Medium devices (desktops) */
