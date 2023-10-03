@@ -393,6 +393,10 @@
     gap: 0px;
   }
 
+  .custom-li-style{
+    padding: 5px 5px;
+   }
+
 }
 
 /* Medium devices (desktops) */
@@ -433,6 +437,13 @@
   .social-links-container{
     justify-content: center;
   }
+
+  .custom-li-style{
+    /* width: 33%; */
+    /* font-weight: 500; */
+    padding: 5px 5px;
+    /* border-radius: 5px; */
+   }
 }
 
 /* Large devices (large desktops) */
