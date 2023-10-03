@@ -44,7 +44,7 @@
 }
 
 .hero-sec-tagline-2 {
-  font-size: 56px;
+  font-size: 3.5rem;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -269,6 +269,7 @@
   padding:0 10px;
 }
 
+.social-links-container{}
 
 
  /* Extra small devices (phones) */
@@ -345,7 +346,6 @@
   }
 
   .property-types-container{
-    /* d-flex flex-column row-gap-sm-2 column-gap-sm-5 flex-sm-column flex-md-row flex-lg-row align-content-around  */
       width: 100%;
       gap: 10px;
   }
@@ -390,14 +390,82 @@
 /* Medium devices (desktops) */
 @media (min-width: 769px) and (max-width: 992px) {
   /* Custom styles for MD screens */
+  .hero-sec-tagline-2{
+    font-size: 2.8rem;
+  }
+
+  .property-display-sec{
+    /* flex-direction: column; */
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-section-tagline{
+    font-size: 1.7rem;
+  }
+  .carousel-section-tagline-desciption{
+    font-size: 1rem;
+  }
+
+  .slider-section-navbar{
+    margin: 0 auto;
+    padding-top: 2.3rem;
+  }
+
+  .slider-section-navbar a{
+    padding-top: 0.25rem;
+    font-size: 1rem;
+  }
+
+  .property-display-row-container{
+    padding: 10px 0;
+    gap: 0px;
+  }
+
+  .social-links-container{
+    justify-content: center;
+  }
 }
 
 /* Large devices (large desktops) */
 @media (min-width: 993px) and (max-width: 1200px) {
   /* Custom styles for LG screens */
+  .property-display-sec{
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .slider-section-navbar{
+    margin: 0 auto;
+    padding-top: 2.3rem;
+  }
+
+  .property-display-row-container{
+    padding: 10px 0;
+    gap: 0px;
+  }
+
+  .div-display-controller{
+    display: none;
+  }
+
+  .footer-grid-tagline{
+    font-size: 1rem;
+  }
+  .carousel-section-tagline{
+    font-size: 2.5rem;
+  }
 }
 
 /* Extra large devices (extra large desktops) */
 @media (min-width: 1201px) {
   /* Custom styles for XL screens */
+  .property-display-row-container{
+    padding: 10px 0;
+    gap: 0px;
+  }
+
+  .div-display-controller{
+    display: none;
+  }
 }
