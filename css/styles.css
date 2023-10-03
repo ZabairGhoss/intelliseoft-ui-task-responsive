@@ -360,6 +360,7 @@
   .property-display-sec{
     flex-direction: column;
     gap: 15px;
+    margin-bottom: 20px;
   }
   .carousel-section-tagline{
     font-size: 2rem;
@@ -381,7 +382,7 @@
 
   .property-display-row-container{
     padding: 10px 0;
-    gap: 15px;
+    gap: 0px;
   }
 
 }
