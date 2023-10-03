@@ -468,4 +468,9 @@
   .div-display-controller{
     display: none;
   }
+
+  .slider-section-navbar{
+    margin: 0 auto;
+    padding-top: 2.3rem;
+  }
 }
