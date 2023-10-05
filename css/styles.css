@@ -150,12 +150,15 @@
   color: #000;
 }
 
-.slider-section-navbar .nav-link .active{
+.slider-section-navbar .nav-item .nav-link:hover{
   border-bottom-color: #f26c61;
-  color: #000;
 }
 
-.slider-section-navbar .nav-item .nav-link:hover{
+.slider-section-navbar > .nav-item .nav-link.active{
+  border-bottom-color: #f26c61;
+}
+
+.SLIDER-SECTION-navbar > .nav-underline .show>.nav-link.active > a{
   border-bottom-color: #f26c61;
 }
 
@@ -496,7 +499,7 @@
   }
 
   .slider-section-navbar{
-    margin: 0 auto;
+    margin: 0;
     padding-top: 2.3rem;
   }
 
